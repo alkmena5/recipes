@@ -1,0 +1,110 @@
+.NotifyBar {
+  width: 100%;
+  background-color: #ffb600;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  height: 0;
+  display: none;
+  transition: 0.3s;
+}
+.NotifyBar a {
+  border-bottom: 1px solid #828282;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  padding-bottom: 0;
+  cursor: pointer;
+  color: #fff;
+border-bottom
+}
+@media screen and (min-width: 1000px) {
+  .NotifyBar a:hover {
+    position: relative;
+    border-bottom: 1px solid #fff;
+    transition: border 0.4s;
+  }
+}
+.NotifyBar_visible {
+  max-height: calc(100% - 50px) !important;
+}
+.NotifyBar_visible .NotifyBar {
+  height: 50px;
+  display: block;
+}
+.A-mh_fh {
+  max-height: 100%;
+  min-height: 100%;
+}
+.Modal-right-container .Modal-center-right .A-flex_alignItems_start,
+.Modal-right-container .Modal-center-right .A-flex_alignItems_end {
+  align-items: center;
+}
+.A-mgRight_lg {
+  margin-right: 66px !important;
+}
+.A-mgRight_md {
+  margin-right: 25px !important;
+}
+.A-mgRight_sm {
+  margin-right: 13px !important;
+}
+.A-mgRight_xs {
+  margin-right: 7px !important;
+}
+.A-mgRight_20 {
+  margin-right: 20px !important;
+}
+.A-mgRight_15 {
+  margin-right: 15px !important;
+}
+.A-mgRight_10 {
+  margin-right: 10px !important;
+}
+.A-mgRight_no {
+  margin-right: 0 !important;
+}
+._link_dotted,
+.A-link_dotted {
+  border-bottom: 1px dotted;
+}
+._link_fadeout,
+.A-link_fadeout {
+  text-overflow: clip;
+  white-space: nowrap;
+  width: 100%;
+  -webkit-mask-image: linear-gradient(to right, #000 80%, transparent 97%);
+}
+.A-flex_alignItems_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	text-align: center;
+}
+.card__control-btn_next:before {
+    right: -50%;
+}
+@media (min-width: 640px) {
+	.card__control-btn_next:after {
+		right: 10px;
+		background-image: url(../img/sprite.svg);
+	}
+}
+.card__control-btn_next:after {
+    right: 7px;
+	background-image: url(../img/sprite.svg);
+}
+.card__control-btn_prev:before {
+    left: -50%;
+}
+@media (min-width: 640px) {
+	.card__control-btn_prev:after {
+		left: 10px;
+		background-image: url(../img/sprite.svg);
+	}
+}
+.card__control-btn_prev:after {
+    left: 7px;
+	background-image: url(../img/sprite.svg);
+}
+.header__user-logo {
+	cursor: pointer;
+}
